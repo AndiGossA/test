@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lifestyle Plan — Aug 2026 to Dec 2027</title>
+<style>
+  :root {
+    --bg: #0f1115;
+    --bg-alt: #171a21;
+    --card: #1c2029;
+    --border: #2a2f3a;
+    --text: #eef0f4;
+    --text-dim: #a6acbb;
+    --accent: #7dd3c0;
+    --accent-2: #f2b880;
+    --accent-3: #c6a4f2;
+    --accent-4: #f29ba0;
+    --radius: 14px;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 24px; }
+
+  header.hero {
+    padding: 96px 0 64px;
+    background:
+      radial-gradient(circle at 15% 20%, rgba(125,211,192,0.16), transparent 45%),
+      radial-gradient(circle at 85% 0%, rgba(198,164,242,0.14), transparent 40%),
+      var(--bg);
+    border-bottom: 1px solid var(--border);
+  }
+  .eyebrow {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    background: rgba(125,211,192,0.1);
+    border: 1px solid rgba(125,211,192,0.3);
+    padding: 6px 14px;
+    border-radius: 999px;
+    margin-bottom: 24px;
+  }
+  h1 {
+    font-size: clamp(2.2rem, 5vw, 3.4rem);
+    line-height: 1.1;
+    margin: 0 0 20px;
+    letter-spacing: -0.02em;
+  }
+  .lede {
+    font-size: 1.15rem;
+    color: var(--text-dim);
+    max-width: 640px;
+    margin: 0 0 36px;
+  }
+  .cta-row { display: flex; gap: 14px; flex-wrap: wrap; }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 22px;
+    border-radius: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: transform 0.15s ease, opacity 0.15s ease;
+  }
+  .btn:hover { transform: translateY(-1px); }
+  .btn-primary { background: var(--accent); color: #0f1115; }
+  .btn-secondary { background: transparent; color: var(--text); border: 1px solid var(--border); }
+
+  section { padding: 72px 0; border-bottom: 1px solid var(--border); }
+  section:last-of-type { border-bottom: none; }
+
+  .section-head { margin-bottom: 40px; }
+  .section-head h2 { font-size: 1.9rem; margin: 0 0 10px; letter-spacing: -0.01em; }
+  .section-head p { color: var(--text-dim); margin: 0; max-width: 600px; }
+
+  .pillars {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+  }
+  .pillar {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 26px;
+  }
+  .pillar .icon {
+    width: 44px; height: 44px;
+    border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 20px;
+    margin-bottom: 18px;
+  }
+  .pillar h3 { margin: 0 0 10px; font-size: 1.1rem; }
+  .pillar p { margin: 0; color: var(--text-dim); font-size: 0.95rem; }
+  .pillar:nth-child(1) .icon { background: rgba(125,211,192,0.15); color: var(--accent); }
+  .pillar:nth-child(2) .icon { background: rgba(242,184,128,0.15); color: var(--accent-2); }
+  .pillar:nth-child(3) .icon { background: rgba(198,164,242,0.15); color: var(--accent-3); }
+  .pillar:nth-child(4) .icon { background: rgba(242,155,160,0.15); color: var(--accent-4); }
+
+  .timeline {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 16px;
+  }
+  .quarter {
+    background: var(--bg-alt);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px;
+  }
+  .quarter .tag {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-bottom: 8px;
+  }
+  .quarter .theme { font-size: 0.92rem; color: var(--text-dim); }
+
+  .review {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  .review-card {
+    padding: 22px;
+    border-radius: var(--radius);
+    background: var(--card);
+    border: 1px solid var(--border);
+  }
+  .review-card .freq { font-weight: 700; margin-bottom: 6px; }
+  .review-card .what { color: var(--text-dim); font-size: 0.92rem; }
+
+  footer {
+    padding: 40px 0 60px;
+    text-align: center;
+    color: var(--text-dim);
+    font-size: 0.9rem;
+  }
+  footer a { color: var(--accent); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Personal Lifestyle Plan</span>
+    <h1>A roadmap for life, money, and career — Aug 2026 to Dec 2027</h1>
+    <p class="lede">
+      One living document tracking budgeting, personal goals, career
+      development, and skill growth across six quarters — reviewed weekly,
+      updated monthly, reset quarterly.
+    </p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="https://github.com/AndiGossA/test/blob/main/lifestyle-plan.md">Read the full plan</a>
+      <a class="btn btn-secondary" href="https://github.com/AndiGossA/test">View on GitHub</a>
+    </div>
+  </div>
+</header>
+
+<section id="pillars">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Four pillars</h2>
+      <p>Everything in the plan rolls up into one of these areas.</p>
+    </div>
+    <div class="pillars">
+      <div class="pillar">
+        <div class="icon">£</div>
+        <h3>Budgeting</h3>
+        <p>Monthly budget framework, an emergency fund and savings milestones, and a weekly-to-quarterly tracking routine.</p>
+      </div>
+      <div class="pillar">
+        <div class="icon">✓</div>
+        <h3>Personal Goals</h3>
+        <p>Health &amp; wellbeing, relationships, and personal enrichment — checked in on every quarter.</p>
+      </div>
+      <div class="pillar">
+        <div class="icon">↗</div>
+        <h3>Career Development</h3>
+        <p>Current vs. target state, promotion and networking milestones, and a quarter-by-quarter action plan.</p>
+      </div>
+      <div class="pillar">
+        <div class="icon">＋</div>
+        <h3>Skill Development</h3>
+        <p>A skills audit, a learning plan tied to budget, and concrete milestones through to a final review.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="timeline">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Timeline</h2>
+      <p>Six quarters from now through the end of next year.</p>
+    </div>
+    <div class="timeline">
+      <div class="quarter"><div class="tag">Q3 2026</div><div class="theme">Foundation: set budget, define goals, audit skills</div></div>
+      <div class="quarter"><div class="tag">Q4 2026</div><div class="theme">Build habits, first skill milestone, year-end review</div></div>
+      <div class="quarter"><div class="tag">Q1 2027</div><div class="theme">New year reset, career check-in, budget review</div></div>
+      <div class="quarter"><div class="tag">Q2 2027</div><div class="theme">Mid-year push: career development, skill deepening</div></div>
+      <div class="quarter"><div class="tag">Q3 2027</div><div class="theme">Consolidate progress, adjust goals</div></div>
+      <div class="quarter"><div class="tag">Q4 2027</div><div class="theme">Final push, annual review, plan for 2028</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="review">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Review cadence</h2>
+      <p>The plan only works if it stays current.</p>
+    </div>
+    <div class="review">
+      <div class="review-card">
+        <div class="freq">Weekly</div>
+        <div class="what">Budget vs. actuals, immediate to-dos</div>
+      </div>
+      <div class="review-card">
+        <div class="freq">Monthly</div>
+        <div class="what">Progress on goals, adjust next month's budget</div>
+      </div>
+      <div class="review-card">
+        <div class="freq">Quarterly</div>
+        <div class="what">Full review across all four pillars</div>
+      </div>
+      <div class="review-card">
+        <div class="freq">Annual</div>
+        <div class="what">Full plan reset — Dec 2026 and Dec 2027</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    Full detail lives in <a href="https://github.com/AndiGossA/test/blob/main/lifestyle-plan.md">lifestyle-plan.md</a>.
+  </div>
+</footer>
+
+</body>
+</html>
