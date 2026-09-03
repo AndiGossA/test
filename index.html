@@ -33,8 +33,10 @@
     --brown-500: #8A5A42;
     --brown-300: #B98C71;
 
-    /* Dusty pink */
-    --rose-600: #A9706C;
+    /* Dusty pink — only --rose-600 is cleared for text (4.5:1 on every
+       ground); lighter tones are decorative. */
+    --rose-600: #8A524F;
+    --rose-500: #A9706C;
     --rose-400: #C99A95;
     --rose-200: #E8D2CD;
     --rose-050: #F6EBE8;
@@ -282,7 +284,7 @@
     border-radius: 0 0 2px 2px;
     background: var(--brown-500);
   }
-  .pillar:nth-child(2)::after { background: var(--rose-600); }
+  .pillar:nth-child(2)::after { background: var(--rose-500); }
   .pillar:nth-child(3)::after { background: var(--brown-300); }
   .pillar:nth-child(4)::after { background: var(--rose-400); }
 
