@@ -1,13 +1,13 @@
-# Lifestyle Plan: August 2026 – December 2027
+# Lifestyle Plan: October 2026 – December 2027
 
 A personal roadmap covering budgeting, personal goals, career development, and
-skill development from now through the end of next year. This document is a
-living plan — revisit and update it monthly.
+skill development from the start of Q4 2026 through the end of next year. This
+document is a living plan — revisit and update it monthly.
 
 **Plan owner:** Andi
-**Start date:** 27 August 2026
+**Start date:** 1 October 2026
 **End date:** 31 December 2027
-**Duration:** ~16 months (6 quarters)
+**Duration:** 15 months (5 quarters)
 
 ---
 
@@ -33,8 +33,7 @@ Top 3 priorities for this period:
 
 | Period | Dates | Theme |
 |---|---|---|
-| Q3 2026 | Aug – Sep 2026 | Foundation: set budget, define goals, audit skills |
-| Q4 2026 | Oct – Dec 2026 | Build habits, first skill milestone, year-end review |
+| Q4 2026 | Oct – Dec 2026 | Foundation: set budget, define goals, audit skills, year-end review |
 | Q1 2027 | Jan – Mar 2027 | New year reset, career check-in, budget review |
 | Q2 2027 | Apr – Jun 2027 | Mid-year push: career development, skill deepening |
 | Q3 2027 | Jul – Sep 2027 | Consolidate progress, adjust goals |
@@ -58,8 +57,8 @@ Top 3 priorities for this period:
 
 | Milestone | Target date | Target amount | Status |
 |---|---|---|---|
-| Emergency fund (3 months expenses) | End Q4 2026 | ___ | Not started |
-| Emergency fund (6 months expenses) | End Q2 2027 | ___ | Not started |
+| Emergency fund (3 months expenses) | End Q1 2027 | ___ | Not started |
+| Emergency fund (6 months expenses) | End Q3 2027 | ___ | Not started |
 | Debt paid off | ___ | ___ | Not started |
 | Investment/savings target | End 2027 | ___ | Not started |
 | Big purchase / travel fund | ___ | ___ | Not started |
@@ -96,7 +95,6 @@ Top 3 priorities for this period:
 
 | Quarter | Health | Relationships | Enrichment | Notes |
 |---|---|---|---|---|
-| Q3 2026 | | | | |
 | Q4 2026 | | | | |
 | Q1 2027 | | | | |
 | Q2 2027 | | | | |
@@ -109,7 +107,7 @@ Top 3 priorities for this period:
 
 ### 5.1 Current State → Target State
 
-| | Now (Aug 2026) | Target (Dec 2027) |
+| | Now (Oct 2026) | Target (Dec 2027) |
 |---|---|---|
 | Role/title | | |
 | Responsibilities | | |
@@ -128,8 +126,8 @@ Top 3 priorities for this period:
 
 ### 5.3 Action Plan by Quarter
 
-- **Q3 2026:** Set clear career goal with manager/mentor; identify skill gaps
-- **Q4 2026:** Deliver on a visible project; year-end review and 2027 goal-setting
+- **Q4 2026:** Set a clear career goal with manager/mentor, identify skill gaps,
+  deliver on a visible project; year-end review and 2027 goal-setting
 - **Q1 2027:** Act on feedback from year-end review; begin any certification/training
 - **Q2 2027:** Mid-year progress check; pursue promotion/role conversation if on track
 - **Q3 2027:** Consolidate achievements; update CV/LinkedIn and portfolio
@@ -180,3 +178,6 @@ Top 3 priorities for this period:
 Use this section to log major updates to the plan.
 
 - **2026-08-27:** Initial plan created, covering Aug 2026 – Dec 2027.
+- **2026-09-21:** Re-based the plan to start at Q4 2026 and run to Q4 2027 —
+  15 months, 5 quarters. Q3 2026's foundation work folded into Q4 2026, and the
+  emergency-fund milestones shifted one quarter later to stay achievable.

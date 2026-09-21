@@ -5,7 +5,7 @@ A personal lifestyle planning project.
 ## Contents
 
 - [`index.html`](./index.html) — Landing page, published with GitHub Pages.
-- [`lifestyle-plan.md`](./lifestyle-plan.md) — Personal roadmap from August 2026
+- [`lifestyle-plan.md`](./lifestyle-plan.md) — Personal roadmap from October 2026
   through the end of 2027, covering budgeting, personal goals, career
   development, and skill development. Reviewed monthly and updated each
   quarter.
