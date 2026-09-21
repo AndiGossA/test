@@ -18,9 +18,9 @@ that document to keep it up to date.
 
 ## Style
 
-The landing page follows the design system in
+The landing page is built on the design system in
 [AndiGossA/style](https://github.com/AndiGossA/style) — palette, typography
 and component conventions live there, in `PREFERENCES.md`, `tokens.css` and
-`base.css`. The page carries its own copy of the CSS inline so it stays a
-single self-contained file; if you change a token there, bring the change back
-here too.
+`base.css`. The page loads that CSS over jsDelivr rather than copying it, so
+a change in the style repo reaches this page on its own. Only page-specific
+rules live in `index.html`.
