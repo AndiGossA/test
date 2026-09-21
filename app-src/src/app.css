@@ -1,0 +1,49 @@
+/* App-specific styles layered on the design system's base.css.
+   Anything reusable belongs in github.com/AndiGossA/style, not here. */
+
+.app-main { padding: var(--space-6) 0 var(--space-7); }
+
+/* The nav in base.css has no current-page state; the app needs one. */
+.nav a.is-current { color: var(--brown-700); font-weight: 600; }
+
+.block-heading { margin: var(--space-6) 0 var(--space-3); }
+
+.current-quarter { margin-bottom: var(--space-3); }
+.current-quarter h3 { margin-bottom: var(--space-3); }
+
+.meter {
+  height: 8px;
+  border-radius: var(--radius-pill);
+  background: var(--paper-deep);
+  overflow: hidden;
+}
+.meter-fill {
+  display: block;
+  height: 100%;
+  border-radius: var(--radius-pill);
+  background: linear-gradient(90deg, var(--brown-500), var(--rose-400));
+}
+.meter-caption {
+  margin: var(--space-2) 0 0;
+  font-size: var(--text-sm);
+  color: var(--ink-muted);
+}
+
+.card.empty { border-style: dashed; box-shadow: none; }
+.card.empty p { margin: 0; }
+
+/* Current step on the timeline rail. */
+.step.is-current .step-label { color: var(--brown-700); }
+.step.is-current::before { background: var(--brown-500); border-color: var(--brown-500); }
+
+.error-detail {
+  background: var(--paper-deep);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: var(--space-3);
+  white-space: pre-wrap;
+  color: var(--ink-muted);
+}
+
+/* The stat row sits mid-page here rather than under a hero. */
+.app-main .facts { margin-top: var(--space-3); }
